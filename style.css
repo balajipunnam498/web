@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+#setimg{
+    object-fit: cover;
+    width: 100%;
+}
+#Head{
+    text-align: center;
+}
+.forhead{
+    padding-top: 8px;
+    padding-bottom: 0px;
+}
+#about{
+    display: flex;
+    max-width: 800px;
+    margin: 0px auto;
+}
+#description{
+    width: 50%;
+}
+#team{
+    width: 50%;
+}
+#team-img{
+    border-radius: 10px;
+    width: 100%;
+}
+#job-section{
+    margin: 0 auto;
+    max-width: 800px;
+}
+#jobrole{
+    margin-bottom: 2px;
+}
+#joblocation{
+    color: gray;
+}
+.applylink{
+    float: right;
+}
+a{
+    text-decoration: none;
+}
+.footer{
+    background-color: ghostwhite;
+    margin-top: 20px;
+    padding:4px;
+    text-align: center;
+}
+.footer-links{
+list-style: none;
+}
+.footer-links li{
+    display: inline;
+    padding: 20px;
+}
+th,td{
+
+    padding: 5px;
+}
+th{
+    text-align: left;
+    border: 1px solid black;
+}
+td{
+    border-right: 1px solid;
+}
+.jobs-table tr:nth-child(odd){
+ background-color: antiquewhite;
+}
+.Apllication{
+    width: 800px;
+    margin: 0 auto;
+
+}
+#ApllicationForm label{
+    font-weight: 400;
+}
+#ApllicationForm input,select,textarea{
+    padding: 4px;
+    font-size: 1rem;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+#Apllication-whole{
+    margin: 1px;
+}
+.form-group{
+    margin: 8px 0;
+}
+.form-group input[type="checkbox"]{
+    width: 16px;
+    height: 16px;
+}
+.form-group input[type="submit"]{
+    background-color: blue;
+    color: antiquewhite;
+    font-weight: 600;
+    cursor: pointer;
+}
